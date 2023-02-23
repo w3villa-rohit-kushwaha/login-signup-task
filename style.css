@@ -1,0 +1,90 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(img/pexels-moose-photos-1037993.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+   
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+.red{
+    color: rgb(194, 48, 12);
+    cursor: pointer;
+}
+.blue{
+    color: rgb(81, 81, 207);
+    cursor: pointer;
+}
+.sky{
+    color: rgb(78, 161, 216);
+    cursor: pointer;
+}
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+    padding: 20px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.form-control {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    outline: none;
+    border-bottom-color: #4CAF50;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
+h5 a{
+    font-size: 22px;
+    color: #4CAF50;
+}
